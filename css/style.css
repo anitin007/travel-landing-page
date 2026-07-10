@@ -1,0 +1,88 @@
+.hero {
+    height: 100vh;
+    background-image: url("https://cdn.wallpapersafari.com/78/25/JU9bGD.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-warning{
+    color: white;
+}
+
+.btn-warning:hover{
+    color: white;
+}
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+#reviews{
+    background-color: #FFC107;
+    padding: 80px 0;
+}
+
+#reviews h2,
+#reviews p{
+    color: #212529;
+}
+
+#reviews .card{
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#reviews .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#reviews img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 4px solid #FFC107;
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+
+#contact .card {
+    border: none;
+    border-radius: 15px;
+}
+
+#contact .form-control,
+#contact .form-select {
+    border-radius: 10px;
+}
+
+#contact .btn {
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.footer a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    color: white !important;
+}
